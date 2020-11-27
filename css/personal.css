@@ -1,0 +1,460 @@
+.personal {
+	padding: 40px 0 100px 0;
+	background-color: #F5F5F5;
+	font-size: 14px;
+}
+
+.personal .lef {
+	height: 500px;
+	text-align: center;
+	box-sizing: border-box;
+	background-color: white;
+	padding: 35px 40px;
+	min-height: 100px;
+	float: left;
+}
+
+.personal .lef li {
+	padding: 20px 0;
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+.personal .lef li:hover {
+	color: #0AB463;
+}
+
+.personal .lef li:first-child {
+	color: black;
+	font-weight: bold;
+}
+
+.personal .rig {
+	float: left;
+	margin-left: 20px;
+}
+
+.personal .rig li {
+	display: none;
+	float: left;
+}
+
+.personal .rig li:first-child {
+	display: block;
+}
+
+.personal .buy {
+	height: 500px;
+	width: 1000px;
+	text-align: center;
+	box-sizing: border-box;
+	background-color: white;
+	margin: auto;
+	padding-top: 100px;
+	min-height: 100px;
+}
+
+.personal .buy .buy_car figure {
+	display: inline-block;
+	width: auto;
+	height: 60px;
+}
+
+.personal .buy .buy_car figure img {
+	vertical-align: middle;
+	outline: none;
+	-webkit-user-drag: none;
+}
+
+.buy .buy_car p {
+	margin-top: 10px;
+	font-size: 14px;
+	color: black;
+}
+
+.buy .buy_car .shop-link {
+	margin-top: 60px;
+}
+
+.buy .buy_car .shop-link .btn {
+	width: 196px;
+	height: 60px;
+	line-height: 60px;
+	color: white;
+	background-color: #6BD089;
+	font-size: 16px;
+	outline: none;
+	border: 0 solid;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.buy .buy_car .shop-link .btn a {
+	color: white;
+}
+
+.buy .buy_car .shop-link .btn:hover {
+	background-color: #05b570;
+}
+
+.personal .address {
+	height: 400px;
+	width: 900px;
+	background-color: white;
+	padding: 40px 30px;
+	min-height: 100px;
+}
+
+.personal .address input {
+	height: 40px;
+	width: 200px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #E2E9ED;
+	padding: 0px 10px;
+}
+
+.personal .address input:nth-child(2) {
+	margin-left: 20px;
+}
+
+.personal .address select {
+	height: 40px;
+	width: 200px;
+	padding: 0 10px;
+	margin-top: 45px;
+	border-radius: 5px;
+}
+
+#address {
+	width: 350px;
+	margin-top: 40px;
+}
+
+.personal .address .btn {
+	height: 45px;
+	width: 150px;
+	background-color: #808080;
+	color: white;
+	font-size: 16px;
+	outline: none;
+	border: 1px solid;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+
+.personal .address .btn:hover {
+	background-color: #666666;
+}
+
+.personal .buy1 {
+	height: 500px;
+	width: 1000px;
+	box-sizing: border-box;
+	background-color: white;
+}
+
+.personal .buy1 .person {
+	height: 20px;
+	width: 100%;
+	font-size: 18px;
+	margin-left: 20px;
+	padding: 20px 16px;
+}
+
+.personal .buy1 .box {
+	height: 140px;
+	width: 220px;
+	border: 1px solid #F5F5F5;
+	margin-left: 20px;
+	cursor: pointer;
+	float: left;
+}
+
+.personal .buy1 .box .add {
+	height: 30px;
+	width: 30px;
+	border-radius: 100%;
+	background-color: #bdbdbd;
+	margin-top: 46px;
+	margin-left: 94px;
+}
+
+.personal .buy1 .box .add>.add_01 {
+	width: 16px;
+	height: 4px;
+	background-color: #fff;
+	position: relative;
+	top: 14px;
+	left: 7px;
+}
+
+.personal .buy1 .box .add>.add_02 {
+	width: 4px;
+	height: 16px;
+	background-color: #fff;
+	position: relative;
+	top: 4px;
+	left: 13px;
+}
+
+.personal .buy1 .box .add_address {
+	margin-left: 65px;
+	margin-top: 5px;
+
+}
+
+.personal .buy1 .box:hover {
+	border: 1px solid #00c3f5;
+}
+
+.personal .buy1 .box:hover .add {
+	background-color: #00c3f5;
+}
+
+.personal .buy1 .new_address {
+	height: 140px;
+	width: 220px;
+
+}
+
+.personal .buy1 .new_address .active {
+	float: left;
+}
+
+.personal .buy1 .new_address dd {
+	float: left;
+	width: 220px;
+	height: 140px;
+	box-sizing: border-box;
+	border: 1px solid deeppink;
+	font-size: 15px;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.personal .buy1 .new_address>.item .item_box {
+	margin-left: 20px;
+}
+
+.personal .buy1 .new_address>.item .new_phone {
+	position: relative;
+	float: right;
+	bottom: 20px;
+}
+
+.personal .buy1 .new_address>.item .new-address {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.personal .buy1 .new_address>.item .family {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.personal .buy1 .new_address>.item .pic {
+	position: relative;
+	top: 24px;
+	left: 150px;
+}
+
+/* .personal .buy1  .new_address .active {
+	border: 1px solid #00c3f5;
+} */
+
+.personal .buy1 .new_address>.item .pic>.del {
+	margin-left: 20px;
+}
+
+.personal .buy1 .new_address dl:hover {
+	border: 1px solid #00c3f5;
+}
+
+
+.personal .rig {
+	float: left;
+	margin-left: 20px;
+}
+
+.personal .head {
+	height: 500px;
+	width: 1000px;
+	
+	background-color: white;
+}
+.personal .order {
+	height: 200px;
+	width: 1000px;
+	background-color: white;
+}
+.personal .order:nth-child(2){
+	margin-top: 20px;
+}
+.personal .order:last-child{
+	margin-top: 20px;
+}
+.personal .order-number{
+	padding: 30px 30px;
+}
+
+.personal .order-list{
+	padding: 0px 30px;
+
+}
+.personal .order-money{
+	padding: 10px 30px;
+
+}
+.personal .order-money span:last-child{
+	margin-left: 30px;
+	font-size: 15px;
+}
+.personal .order-list img{
+	margin-left: 25px;
+}
+.personal .order-list .shopping{
+	position: relative;
+	bottom: 20px;
+}
+.personal .order-list .order-phone{
+	position: relative;
+	bottom: 25px;
+	margin-left: 30px;
+}
+.personal .order-list .order-num{
+	position: relative;
+	bottom: 25px;
+	margin-left: 30px;
+}
+.personal .order-number .cancel{
+	float: right;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+
+
+
+
+
+
+.head .all{
+	padding: 15px 20px;
+	font-size: 16px;
+	color: red;
+}
+
+.collect{
+	height: 250px;
+	margin-top: 20px;
+}
+.collect .item{
+	height: 250px;
+	width: calc((100% - 80px)/4);
+	float: left;
+	margin-right: 20px;
+	text-align: center;
+	border: 1px solid #F5F5F5;
+}
+
+.collect .item .phone_photo{
+	height: 170px;
+	width: 145px;
+}
+
+.collect .item .del{
+	position: relative;
+	bottom: 230px;
+	left: 95px;
+	cursor: pointer;
+
+}
+.collect .item .a{
+	margin-top: 20px;
+}
+
+.collect .item:last-child{
+	margin-right: 0;
+	border: 0;
+}
+.collect .item .call{
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.collect .item .pricea{
+	color: red;
+}
+.collect .item .lowprice{
+	color: #B7B7B7;
+	text-decoration: line-through;
+	font-style: normal;
+}
+
+
+
+.form {
+	margin-top: 30px;
+	height: 250px;
+	width: 600px;
+	background-color: white;
+
+}
+
+.form input {
+	width: 155px;
+	height: 30px;
+	padding: 4px 10px;
+	border-radius: 5px;
+	outline: none;
+	font-size: 15px;
+	border: 1ox solid #E2E9ED;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.form select {
+	width: 179px;
+	height: 41px;
+	border-radius: 5px;
+	outline: none;
+	font-size: 15px;
+	border: 1ox solid #E2E9ED;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+.form .add-01 {
+	width: 300px;
+}
+
+.form button {
+	height: 40px;
+	width: 150px;
+	outline: none;
+	color: white;
+	border: 1px solid;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 15px;
+	border-radius: 5px;
+	background-color: #808080;
+	cursor: pointer;
+}
+
+.form .cancel {
+	background-color: #D9D9D9;
+	color: black;
+}
+
+.form .cancel:hover {
+	background-color: #BFBFBF;
+}
+
+.form .btn:hover {
+	background-color: #595959;
+}

@@ -1,0 +1,1107 @@
+
+.swiper-container {
+	width: 100%;
+	height: 750px;
+	cursor: pointer;
+}
+
+.swiper-container .slider1 {
+	height: 100%;
+	background: url(../img/index/3.webp) no-repeat center top;
+	background-size: cover;
+}
+
+.swiper-container .slider2 {
+	height: 100%;
+	background: url(../img/index/1.webp) no-repeat center top;
+	background-size: cover;
+}
+
+.swiper-container .slider3 {
+	height: 100%;
+	background: url(../img/index/6.webp) no-repeat center top;
+	background-size: cover;
+}
+
+.swiper-container .slider4 {
+	height: 100%;
+	background: url(../img/index/5.webp) no-repeat center top;
+	background-size: cover;
+}
+
+.swiper-container .slider5 {
+	height: 100%;
+	background: url(../img/index/2.webp) no-repeat center top;
+	background-size: cover;
+}
+
+.swiper-container .slider6 {
+	height: 100%;
+	background: url(../img/index/4.webp) no-repeat center top;
+	background-size: cover;
+}
+
+.slider1 .swiper1_span {
+	font-size: 45px;
+	font-weight: bold;
+	color: black;
+	position: absolute;
+	left: 55%;
+	top: 35%;
+}
+
+.slider1 .swiper1_p {
+	font-size: 22px;
+	color: black;
+	position: absolute;
+	opacity: 0.7;
+	left: 65%;
+	top: 45%;
+}
+
+.slider1 .swiper1_buy {
+	height: 40px;
+	width: 120px;
+	background-color: #05B570;
+	color: white;
+	border-radius: 20px;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+	position: absolute;
+	left: 68%;
+	top: 55%;
+}
+.slider1 .swiper1_buy a{
+	color: white;
+}
+.slider2 .swiper1_span {
+	font-size: 45px;
+	font-weight: bold;
+	color: white;
+	position: absolute;
+	left: 55%;
+	top: 35%;
+}
+
+.slider2 .swiper1_p {
+	font-size: 22px;
+	color: white;
+	position: absolute;
+	opacity: 0.7;
+	left: 58%;
+	top: 45%;
+}
+
+.slider2 .swiper1_buy {
+	height: 40px;
+	width: 120px;
+	background-color: white;
+	color: black;
+	border-radius: 20px;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+	position: absolute;
+	left: 65%;
+	top: 55%;
+}
+
+.slider3 .swiper1_span {
+	font-size: 45px;
+	font-weight: bold;
+	color: white;
+	position: absolute;
+	left: 55%;
+	top: 35%;
+}
+
+.slider3 .swiper1_p {
+	font-size: 22px;
+	color: white;
+	position: absolute;
+	left: 65%;
+	top: 53%;
+}
+
+.slider3 .swiper1_buy {
+	height: 40px;
+	width: 120px;
+	background-color: white;
+	color: black;
+	border-radius: 20px;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+	position: absolute;
+	left: 72%;
+	top: 63%;
+}
+
+.slider4 .swiper1_span {
+	font-size: 45px;
+	font-weight: bold;
+	color: black;
+	position: absolute;
+	left: 55%;
+	top: 35%;
+}
+
+.slider4 .swiper1_p {
+	font-size: 22px;
+	color: black;
+	opacity: 0.7;
+	position: absolute;
+	left: 60%;
+	top: 45%;
+}
+
+.slider4 .swiper1_buy {
+	height: 40px;
+	width: 120px;
+	background-color: #05B570;
+	color: white;
+	border-radius: 20px;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+	position: absolute;
+	left: 67%;
+	top: 53%;
+}
+.slider4 .swiper1_buy a{
+	color: white;
+}
+.slider5 .swiper1_span {
+	font-size: 45px;
+	font-weight: bold;
+	color: black;
+	position: absolute;
+	left: 60%;
+	top: 35%;
+}
+
+.slider5 .swiper1_p {
+	font-size: 22px;
+	color: black;
+	opacity: 0.7;
+	position: absolute;
+	left: 60%;
+	top: 45%;
+}
+
+.slider5 .swiper1_buy {
+	height: 40px;
+	width: 120px;
+	background-color: #05B570;
+	color: white;
+	border-radius: 20px;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+	position: absolute;
+	left: 67%;
+	top: 53%;
+}
+.slider5 .swiper1_buy a{
+	color: white;
+}
+.slider6 .swiper1_span {
+	font-size: 45px;
+	font-weight: bold;
+	color: black;
+	position: absolute;
+	left: 60%;
+	top: 35%;
+}
+
+.slider6 .swiper1_p {
+	font-size: 22px;
+	color: black;
+	opacity: 0.7;
+	position: absolute;
+	left: 70%;
+	top: 47%;
+}
+
+.slider6 .swiper1_buy {
+	height: 40px;
+	width: 120px;
+	background-color: #05B570;
+	color: white;
+	border-radius: 20px;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+	position: absolute;
+	left: 75%;
+	top: 54%;
+}
+.slider6 .swiper1_buy a{
+	color: white;
+}
+.tab {
+	height: 720px;
+	background-color: #f4f4f4;
+
+}
+
+.tab .picture {
+	margin-top: 30px;
+	width: 100%;
+}
+
+.tab .picture li {
+	display: none;
+}
+
+.tab .picture li:first-child {
+	display: block;
+}
+
+.tab .little_box {
+	display: block;
+	position: relative;
+	height: 32px;
+	width: 72px;
+	top: 100px;
+	left: 50px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 32px;
+	color: #1ACB89;
+	border: 1px solid #1ACB89;
+	background-color: #B0ECEB;
+}
+
+.tab .little_box1 {
+	font-size: 24px;
+	color: black;
+	float: right;
+	position: relative;
+	top: 200px;
+	right: 300px;
+	cursor: pointer;
+}
+
+.tab .little_box2 {
+	font-size: 35px;
+	font-weight: bold;
+	color: black;
+	float: right;
+	position: relative;
+	top: 240px;
+	right: 100px;
+	cursor: pointer;
+}
+
+.tab .little_box3 {
+	font-size: 25px;
+	color: black;
+	float: right;
+	position: relative;
+	top: 380px;
+	left: 60px;
+	cursor: pointer;
+}
+
+.tab .little_box4 {
+	height: 40px;
+	width: 120px;
+	background-color: #05B570;
+	color: white;
+	float: right;
+	border-radius: 20px;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+	position: relative;
+	top: 440px;
+	left: 160px;
+	cursor: pointer;
+}
+.tab .little_box4 a{
+	color: white;
+}
+.tab .circle {
+	height: 30px;
+	width: 130px;
+}
+
+.tab .circle li {
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-color: #82A3E1;
+	border-radius: 100%;
+	line-height: 20px;
+	margin-left: 10px;
+	position: relative;
+	top: 320px;
+	left: 790px;
+	cursor: pointer;
+}
+
+.tab .circle li:nth-child(2) {
+	background-color: #000000;
+}
+
+.tab .circle li:nth-child(3) {
+	background-color: pink;
+}
+
+.tab .circle li:last-child {
+	background-color: #D9DCDD;
+}
+
+.tab_first {
+	background-color: #f4f4f4;
+
+}
+
+.tab_first .pic {
+	width: 100%;
+}
+
+.tab_first .pic li {
+	display: none;
+}
+
+.tab_first .pic li:first-child {
+	display: block;
+}
+
+.tab_first .little_box {
+	display: block;
+	position: relative;
+	height: 30px;
+	width: 72px;
+	top: 190px;
+	left: 50px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 32px;
+	color: #1ACB89;
+	border: 1px solid #1ACB89;
+	background-color: #B0ECEB;
+}
+
+.tab_first .little_box1 {
+	font-size: 24px;
+	color: black;
+	position: relative;
+	top: 250px;
+	left: 270px;
+	cursor: pointer;
+}
+
+.tab_first .little_box2 {
+	font-size: 35px;
+	font-weight: bold;
+	color: black;
+	position: relative;
+	top: 300px;
+	left: 104px;
+	cursor: pointer;
+}
+
+.tab_first .little_box3 {
+	font-size: 25px;
+	color: black;
+	position: relative;
+	top: 480px;
+	right: 70px;
+	cursor: pointer;
+}
+
+.tab_first .little_box4 {
+	height: 40px;
+	width: 120px;
+	background-color: #05B570;
+	color: white;
+	border-radius: 20px;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+	position: relative;
+	top: 485px;
+	left: 280px;
+	cursor: pointer;
+}
+
+.tab_first .circle {
+	height: 30px;
+	width: 130px;
+}
+.tab_first .little_box4 a{
+	color: white;
+}
+.tab_first .circle li {
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-color: #CCC1F6;
+	border-radius: 100%;
+	line-height: 20px;
+	margin-left: 10px;
+	position: relative;
+	top: 338px;
+	left: 272px;
+	cursor: pointer;
+}
+
+.tab_first .circle li:nth-child(2) {
+	background-color: #F49298;
+}
+
+.tab_first .circle li:nth-child(3) {
+	background-color: #82A3E1;
+}
+
+.tab_first .circle li:last-child {
+	background-color: black;
+}
+
+.tab_second {
+
+	background-color: #f4f4f4;
+
+}
+
+.tab_second .pict {
+	width: 100%;
+	margin-top: 30px;
+}
+
+
+.tab_second .pict li {
+	display: none;
+}
+
+.tab_second .pict li:first-child {
+	display: block;
+}
+
+.tab_second .little_box1 {
+	font-size: 24px;
+	color: white;
+	float: right;
+	position: relative;
+	top: 200px;
+	right: 300px;
+	cursor: pointer;
+}
+
+.tab_second .little_box2 {
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+	float: right;
+	position: relative;
+	top: 240px;
+	right: 80px;
+	cursor: pointer;
+}
+
+.tab_second .little_box3 {
+	font-size: 25px;
+	color: white;
+	float: right;
+	position: relative;
+	top: 380px;
+	left: 91px;
+	cursor: pointer;
+}
+
+.tab_second .little_box4 {
+	height: 40px;
+	width: 120px;
+	background-color: #05B570;
+	color: white;
+	float: right;
+	border-radius: 20px;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+	position: relative;
+	top: 440px;
+	left: 188px;
+	cursor: pointer;
+}
+.tab_second .little_box4 a{
+	color: white;
+}
+.tab_second .circle {
+	height: 30px;
+	width: 130px;
+}
+
+.tab_second .circle li {
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-color: #8C7FDF;
+	border-radius: 100%;
+	line-height: 20px;
+	margin-left: 10px;
+	position: relative;
+	top: 320px;
+	left: 790px;
+	cursor: pointer;
+}
+
+.tab_second .circle li:nth-child(2) {
+	background-color: #90AECF;
+}
+
+.tab_second .circle li:last-child {
+	background-color: #3D3F44;
+}
+
+.OPPO {
+	background-color: #f4f4f4;
+}
+
+.OPPO .oppo_01 {
+	margin-top: 50px;
+	height: 700px;
+	width: 100%;
+}
+
+.OPPO .oppo_01>.oppo_pro {
+	height: 100%;
+	width: calc((100% - 50px) /2);
+	float: left;
+	background-color: white;
+	margin-right: 50px;
+}
+
+.OPPO .oppo_01>.oppo_pro:last-child {
+	margin-right: 0;
+}
+
+.OPPO .oppo-01>.pict {
+	width: 100%;
+}
+
+.OPPO .oppo-01>.pict {
+	margin-top: 30px;
+	width: 100%;
+}
+
+.OPPO .oppo-01>.pict li {
+	display: none;
+}
+
+.OPPO .oppo-01>.pict li:first-child {
+	display: block;
+}
+
+.OPPO .oppo-01 .circle {
+	margin-top: 20px;
+	height: 30px;
+	width: 130;
+}
+
+.OPPO .container>div>div:hover {
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+	box-sizing: border-box;
+}
+
+.OPPO .oppo-01 .circle li {
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-color: #7D58AA;
+	border-radius: 100%;
+	line-height: 20px;
+	margin-left: 26px;
+	position: relative;
+	left: 194px;
+	cursor: pointer;
+}
+
+.OPPO .oppo-01 .circle li:nth-child(2) {
+	background-color: #5596C6;
+}
+
+.OPPO .oppo-01 .circle li:nth-child(3) {
+	background-color: #E9F0F4;
+}
+
+.OPPO .oppo-01 .circle li:last-child {
+	background-color: black;
+}
+
+.OPPO .oppo-01 h2 {
+	margin-top: 50px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.OPPO .oppo-01 h3 {
+	font-size: 22px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.OPPO .oppo-01 h4 {
+	font-size: 22px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.OPPO .oppo_02 {
+	margin-top: 50px;
+	height: 700px;
+	width: 100%;
+}
+
+.OPPO .oppo_02>.oppo_pro {
+	height: 100%;
+	width: calc((100% - 50px) /2);
+	float: left;
+	background-color: white;
+	margin-right: 50px;
+}
+
+.OPPO .oppo_02>.oppo_pro:last-child {
+	margin-right: 0;
+}
+
+.OPPO .oppo-02>.pict {
+	width: 100%;
+}
+
+.OPPO .oppo-02>.pict {
+	margin-top: 30px;
+	width: 100%;
+}
+
+.OPPO .oppo-02>.pict li {
+	display: none;
+}
+
+.OPPO .oppo-02>.pict li:first-child {
+	display: block;
+}
+
+.OPPO .oppo-02 .circle {
+	margin-top: 20px;
+	height: 30px;
+	width: 130;
+}
+
+.OPPO .oppo-02 .circle li {
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-color: #7D58AA;
+	border-radius: 100%;
+	line-height: 20px;
+	margin-left: 26px;
+	position: relative;
+	left: 194px;
+	cursor: pointer;
+}
+
+.OPPO .oppo-02 .circle li:nth-child(2) {
+	background-color: #5596C6;
+}
+
+.OPPO .oppo-02 .circle li:nth-child(3) {
+	background-color: #E9F0F4;
+}
+
+.OPPO .oppo-02 .circle li:last-child {
+	background-color: black;
+}
+
+.OPPO .oppo-02 h2 {
+	margin-top: 50px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.OPPO .oppo-02 h3 {
+	font-size: 22px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.OPPO .oppo-02 h4 {
+	font-size: 22px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.OPPO .oppo_03 {
+	margin-top: 50px;
+	height: 700px;
+	width: 100%;
+}
+
+.OPPO .oppo_03>.oppo_pro {
+	height: 100%;
+	width: calc((100% - 50px) /2);
+	float: left;
+	background-color: white;
+	margin-right: 50px;
+}
+
+.OPPO .oppo_03>.oppo_pro:last-child {
+	margin-right: 0;
+}
+
+.OPPO .oppo-03>.pict {
+	width: 100%;
+}
+
+.OPPO .oppo-03>.pict {
+	margin-top: 30px;
+	width: 100%;
+}
+
+.OPPO .oppo-03>.pict li {
+	display: none;
+}
+
+.OPPO .oppo-03>.pict li:first-child {
+	display: block;
+}
+
+.OPPO .oppo-03 .circle {
+	margin-top: 20px;
+	height: 30px;
+	width: 130;
+}
+
+.OPPO .oppo-03 .circle li {
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-color: #7D58AA;
+	border-radius: 100%;
+	line-height: 20px;
+	margin-left: 47px;
+	position: relative;
+	left: 194px;
+	cursor: pointer;
+}
+
+.OPPO .oppo-03 .circle li:nth-child(2) {
+	background-color: #5596C6;
+}
+
+.OPPO .oppo-03 .circle li:nth-child(3) {
+	background-color: #E9F0F4;
+}
+
+.OPPO .oppo-03 .circle li:last-child {
+	background-color: black;
+}
+
+.OPPO .oppo-03 h2 {
+	margin-top: 50px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.OPPO .oppo-03 h3 {
+	font-size: 22px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.OPPO .oppo-03 h4 {
+	font-size: 22px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.OPPO .oppo_04 {
+	margin-top: 50px;
+	height: 700px;
+	width: 100%;
+}
+
+.OPPO .oppo_04>.oppo_pro {
+	height: 100%;
+	width: calc((100% - 50px) /2);
+	float: left;
+	background-color: white;
+	margin-right: 50px;
+}
+
+.OPPO .oppo_04>.oppo_pro:last-child {
+	margin-right: 0;
+}
+
+.OPPO .oppo-04>.pict {
+	width: 100%;
+}
+
+.OPPO .oppo-04>.pict {
+	margin-top: 30px;
+	width: 100%;
+}
+
+.OPPO .oppo-04>.pict li {
+	display: none;
+}
+
+.OPPO .oppo-04>.pict li:first-child {
+	display: block;
+}
+
+.OPPO .oppo-04 .circle {
+	margin-top: 20px;
+	height: 30px;
+	width: 130;
+}
+
+.OPPO .oppo-04 .circle li {
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-color: #7D58AA;
+	border-radius: 100%;
+	line-height: 20px;
+	margin-left: 47px;
+	position: relative;
+	left: 194px;
+	cursor: pointer;
+}
+
+.OPPO .oppo-04 .circle li:nth-child(2) {
+	background-color: #5596C6;
+}
+
+.OPPO .oppo-04 .circle li:nth-child(3) {
+	background-color: #E9F0F4;
+}
+
+.OPPO .oppo-04 .circle li:last-child {
+	background-color: black;
+}
+
+.OPPO .oppo-04 h2 {
+	margin-top: 50px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.OPPO .oppo-04 h3 {
+	font-size: 22px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.OPPO .oppo-04 h4 {
+	font-size: 22px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.intellect {
+	background-color: #F4F4F4;
+}
+
+.intellect .top {
+	height: 120px;
+}
+
+.intellect .left {
+	height: 120px;
+	width: 300px;
+	float: left;
+	font-size: 25px;
+	line-height: 150px;
+}
+
+.intellect .right {
+	height: 100%;
+	float: left;
+	width: calc(100% - 350px);
+}
+
+.intellect .right li {
+	float: left;
+	height: 30px;
+	cursor: pointer;
+	line-height: 30px;
+	padding: 5px 25px;
+	font-size: 16px;
+	position: relative;
+	top: 55px;
+}
+
+.intellect .bottom li {
+	display: none;
+}
+
+.intellect .bottom li:first-child {
+	display: block;
+}
+
+.intellect .bottom .oppo_picture .container>div .watch:hover {
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+	box-sizing: border-box
+}
+
+.intellect .bottom .oppo_picture .container>div>div>div:hover {
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+	box-sizing: border-box;
+}
+
+.oppo_picture {
+	background-color: #f4f4f4;
+}
+
+.oppo_picture .oppo_pic1 {
+	height: 500px;
+	width: 1200px;
+}
+
+.oppo_picture .oppo_pic1 .watch {
+	height: 500px;
+	width: 575px;
+	margin-right: 50px;
+	background-color: white;
+	float: left;
+}
+
+.oppo_picture .oppo_pic1 .watch h1 {
+	font-size: 25px;
+	position: relative;
+	top: 215px;
+	left: 66px;
+
+}
+
+.oppo_picture .oppo_pic1 .watch h2 {
+	font-size: 25px;
+	position: relative;
+	top: 220px;
+	left: 100px;
+
+}
+
+.oppo_picture .oppo_pic1 .watch1 {
+	height: 500px;
+	width: 575px;
+	float: left;
+}
+
+.oppo_picture .oppo_pic1 .watch1 .little—watch {
+	height: 500px;
+	width: calc((100% - 50px)/2);
+	float: left;
+	background-color: white;
+	margin-right: 50px;
+
+}
+
+.oppo_picture .oppo_pic1 .watch1 .little—watch:last-child {
+	margin-right: 0;
+}
+
+.oppo_picture .oppo_pic1 .watch1 .little—watch img {
+	position: relative;
+	right: 40px;
+}
+
+.oppo_picture .oppo_pic1 .watch1 .little—watch span {
+	display: block;
+	height: 32px;
+	width: 72px;
+	border-radius: 3px;
+	margin-top: 40px;
+	margin-left: 30px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 32px;
+	color: #1ACB89;
+	border: 1px solid #1ACB89;
+	background-color: #B0ECEB;
+}
+
+.oppo_picture .oppo_pic1 .watch1 .little—watch h2 {
+	font-size: 20px;
+	margin-top: 30px;
+	text-align: center;
+
+}
+
+.oppo_picture .oppo_pic1 .watch1 .little—watch h3 {
+	font-size: 18px;
+	margin-top: 30px;
+	text-align: center;
+
+}
+
+.oppo_picture .oppo_pic2 {
+	height: 500px;
+	width: 1200px;
+	margin-top: 30px;
+}
+
+.oppo_picture .oppo_pic2>.little-watch1 {
+	height: 500px;
+	width: 1200px;
+}
+
+.oppo_picture .oppo_pic2>.little-watch1 .item {
+	height: 100%;
+	width: calc((100% - 150px) / 4);
+	margin-right: 50px;
+	float: left;
+	background-color: white;
+}
+
+.oppo_picture .oppo_pic2>.little-watch1 .item:last-child {
+	margin-right: 0;
+}
+
+.oppo_picture .oppo_pic2>.little-watch1 .item span {
+	display: block;
+	height: 32px;
+	width: 72px;
+	border-radius: 3px;
+	margin-top: 40px;
+	margin-left: 30px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 32px;
+	color: #1ACB89;
+	border: 1px solid #1ACB89;
+	background-color: #B0ECEB;
+}
+
+.oppo_picture .oppo_pic2>.little-watch1 .item img {
+	position: relative;
+	right: 40px;
+}
+
+.oppo_picture .oppo_pic2>.little-watch1 .item h2 {
+	font-size: 20px;
+	margin-top: 30px;
+	text-align: center;
+
+}
+
+.oppo_picture .oppo_pic2>.little-watch1 .item h3 {
+	font-size: 18px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.oppo_picture .oppo_pic2>.little-watch1 .item1 img {
+	margin-top: 75px;
+
+}
+
+.div {
+	height: 150px;
+	background-color: #f4f4f4;
+}

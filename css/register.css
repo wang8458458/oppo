@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+.form {
+	width: 430px;
+	margin: 50px auto;
+	padding: 60px;
+	border: 1px solid #ddd;
+}
+
+.form h1 {
+	width: 100px;
+	margin-left: 140px;
+	font-size: 25px;
+}
+
+.form .form-control {
+	position: relative;
+	margin: 20px 40px;
+}
+
+.form .input-control {
+	display: inline-block;
+	width: 328px;
+	height: 19px;
+	background-color: #F7F7F7;
+	border-radius: 5px;
+	border: 1px solid #DDDDDD;
+	font-size: 16px;
+	padding: 11px 10px;
+}
+
+.form .word {
+	opacity: 0.5;
+	margin-left: 50px;
+}
+
+.form .checked {
+	width: 400px;
+	height: 40px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+#checked {
+	height: 15px;
+	width: 15px;
+}
+
+.word_01 {
+	margin-left: 5px;
+	font-size: 15px;
+	color: black;
+}
+
+.word_02 a {
+	font-size: 12px;
+	color: #009F95;
+}
+
+#register {
+	height: 40px;
+	width: 100px;
+	font-size: 18px;
+	background-color: #2AD181;
+	border-color:white ;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #2AD181;
+	color: white;
+	border-radius: 6px;
+	margin-left: 166px;
+}
+#register:hover{
+	background-color: #0ab463;
+}
+.register[disabled] {
+	background-color: gray;
+}

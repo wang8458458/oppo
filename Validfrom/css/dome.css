@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+.form {
+	width: 500px;
+	margin: 50px auto;
+	padding: 30px;
+	border: 1px solid #ddd;
+}
+
+.form label {
+	display: inline-block;
+	width: 65px;
+	height: 42px;
+	line-height: 42px;
+	margin-right: 10px;
+	text-align: right;
+	font-size: 14px;
+	color: #666;
+	font-weight: 700;
+}
+
+.form .form-control {
+	position: relative;
+}
+
+.form .input-control {
+	display: inline-block;
+	width: 328px;
+	height: 19px;
+	border-radius: 7px;
+	border: 1px solid #DDDDDD;
+	font-size: 16px;
+	padding: 11px 10px;
+}
+
+.login {
+	border: none;
+	width: 350px;
+	background-color: #4490f7;
+	font-size: 16px;
+	height: 50px;
+	font-weight: 700;
+	cursor: pointer;
+	color: #fff;
+	background-image: none;
+	margin-left: 75px;
+	border-radius: 5px;
+}
+
+.error-tip {
+	position: absolute;
+	right: -179px;
+	top: 5px;
+	min-width: 229px;
+	height: 20px;
+	padding: 4px;
+	line-height: 20px;
+	border: 1px solid #57A9D2;
+	background-color: #57A9D2;
+	font-size: 12px;
+	color: white;
+	border-radius: 3px;
+	 display: none;
+}
+.error-tip::before{
+	position: absolute;
+	top: 3px;
+	left: -11px;
+	z-index: 2;
+	content:"";
+	width:0;
+    height:0;
+    border-top:11px solid transparent;
+    border-bottom:11px solid transparent;
+    border-right:11px solid #57A9D2;
+}
+#password{
+	background: url(../img/2.png) no-repeat;
+	background-position: 313px 11px;
+	background-size: 25px auto;
+}
+.error .input-control {
+	border-color: red;
+}
+
+.error .error-tip {
+	display: block;
+}
+
+.error .delta {
+	display: block;
+}
+
+.btn {
+	height: 30px;
+	width: 60px;
+	border-radius: 5px;
+	background-color: #3C6DB0;
+	color: white;
+	margin-left: 100px;
+	border: 1px solid #3C6DB0;
+}
+
+.obtn {
+	height: 30px;
+	width: 150px;
+	border-radius: 5px;
+	background-color: #3C6DB0;
+	color: white;
+	margin-left: 50px;
+	border: 1px solid #3C6DB0;
+}

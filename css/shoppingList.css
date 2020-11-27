@@ -1,0 +1,313 @@
+.nav {
+	height: 600px;
+	background: url(../img/shoplist/1.webp) no-repeat center center;
+	background-position: 50%;
+	background-size: cover;
+}
+
+.nav .picture {
+	height: 60px;
+	padding: 20px 0px;
+}
+
+.nav .picture .lef {
+	float: left;
+}
+
+.nav .picture .lef img {
+	border-style: none;
+	vertical-align: baseline;
+}
+
+.nav .picture .rig {
+	float: right;
+}
+
+.nav .picture .rig span {
+	color: white;
+	font-size: 15px;
+}
+
+.nav .picture .rig .login {
+	position: relative;
+	right: 15px;
+}
+
+.nav .picture .rig span:hover {
+	color: #D1D7DE;
+}
+
+.business {
+	height: 80px;
+}
+
+.business .business_lef {
+	margin-top: 30px;
+	float: left;
+	font-size: 18px;
+	height: 30px;
+	line-height: 30px;
+	width: 170px;
+	border-right: 1px solid #d5d5d5;
+}
+
+.business .business_rig {
+	margin-top: 30px;
+	float: left;
+}
+
+.business .business_rig ul li img {
+	height: 20px;
+	width: 20px;
+	vertical-align: middle;
+}
+
+.business .business_rig ul li {
+	float: left;
+	padding: 0px 45px;
+	font-size: 15px;
+}
+
+.business .business_rig ul li span {
+	margin-left: 16px;
+}
+
+.business .btn {
+	margin-top: 10px;
+	height: 50px;
+	cursor: pointer;
+	width: 170px;
+	float: right;
+	color: white;
+	font-size: 16px;
+	background-color: #0AB463;
+	border: 0 solid;
+	outline: none;
+}
+
+.phone {
+	background-color: #F5F5F5;
+}
+
+.buy_phone {
+	height: 450px;
+	margin-top: 20px;
+}
+
+.buy_phone .item {
+	height: 100%;
+	width: calc((100% - 20px)/2);
+	margin-right: 20px;
+	float: left;
+}
+
+.buy_phone .item:last-child {
+	margin-right: 0;
+}
+
+.content {
+	background-color: #F5F5F5;
+	height: 155px;
+}
+
+.title {
+	height: 70px;
+	line-height: 70px;
+}
+
+
+.title .oppo{
+	font-size: 20px;
+}
+
+
+.top {
+	height: 55px;
+	background-color: #FFFFFF;
+	color: #666666;
+	margin-bottom: 20px;
+	width: 1200px;
+}
+
+.price1 {
+	width: 1200px;
+	height: 50px;
+	border-bottom: 1px solid #EAEAEA;
+	line-height: 50px;
+}
+
+.price-01 {
+	width: 120px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+
+.shopprice {
+	/* width: 130px; */
+	display: inline-block;
+	cursor: pointer;
+	margin-right: 5px;
+	color: #424242;
+	
+}
+
+.shopprice:hover {
+	color: #CA141D;
+}
+
+.selected {
+	color: #CA141D;
+}
+
+.number1 {
+	width: 130px;
+	margin-right: 40px;
+}
+
+.num_box {
+	width: 90px;
+	position: relative;
+	box-sizing: border-box;
+	padding-left: 17px;
+}
+
+
+.price1 ul>li {
+	float: left;
+}
+
+.price {
+	width: 10px;
+	height: 10px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 10px;
+	display: none;
+	position: absolute;
+	left: -2px;
+	top: 18px;
+}
+
+.price::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #fff;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #CA141D;
+}
+
+.price:checked::before {
+	content: "\2713";
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	border: 1px solid #e50232;
+	color: #e50232;
+	font-size: 5px;
+	font-weight: bold;
+}
+
+.paixu {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 20px;
+}
+
+.paixu span {
+	font-size: 16px;
+	
+}
+
+.paixu button {
+	width: 50px;
+	height: 30px;
+	background-color: #29D184;
+	color: white;
+	outline: none;
+	border: 1px solid #29D184;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-left: 30px;
+}
+.shop{
+	background-color: #F5F5F5;
+}
+
+.phone li {
+	float: left;
+	width: 230px;
+	height: 352px;
+	background-color: #fff;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	background-color: #F5F5F5;
+}
+
+.phone li .item {
+	width: 233px;
+	height: 322px;
+	/* position: absolute; */
+	bottom: 0px;
+	background-color: #fff;
+}
+
+.phone li img {
+	width: 175px;
+	height: 175px;
+	margin-top: 30px;
+	margin-left: 29px;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+
+.name {
+	text-align: center;
+	color: #333333;
+	font-size: 18px;
+}
+
+.choose{
+	height: 40px;
+	width: 100%;
+}
+.choose .buy_cell{
+	width: 100%;
+	height: 100%;
+	background-color: #29D184;
+	color: white;
+	font-size: 15px;
+	outline: none;
+	border: 1px solid #29D184;
+	cursor: pointer;
+}
+.price_02{
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+	margin-bottom: 5px;
+}
+.d1 {
+	margin-top: 0px;
+}
+.rmb{
+	font-size: 18px;
+	color: #d0141d;
+}
+.item:hover {
+	-webkit-box-shadow: #ccc 0px 10px 10px;
+	-moz-box-shadow: #ccc 0px 10px 10px;
+	box-shadow: #ccc 0px 10px 10px;
+}
+
+.fuhao {
+	color: #D0141D;
+	font-size: 18px;
+	padding-left: 84px;
+}

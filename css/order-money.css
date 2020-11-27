@@ -1,0 +1,197 @@
+.order {
+	background-color: #F5F5F5;
+	height: 700px;
+}
+
+.order .top {
+	height: 200px;
+	border-bottom: 1px solid #F5F5F5;
+}
+
+.order .container {
+	height: 100%;
+
+}
+
+.order .order-money {
+	height: 100%;
+	width: 100%;
+	margin-top: 40px;
+	background-color: white;
+
+}
+
+.order .order-list {
+	margin-left: 30px;
+	height: 120px;
+	border-bottom: 1px solid #F5F5F5;
+}
+
+.order .order-list .a {
+	margin-top: 20px;
+}
+
+.order .order-list span {
+	font-size: 14px;
+}
+
+.order .order-list .name {
+	margin-left: 45px;
+}
+
+.order .order-list .shopping-list {
+	margin-left: 70px;
+	margin-top: 20px;
+	font-size: 13px;
+}
+
+.order .order-list .call {
+	margin-left: 180px;
+}
+
+.order .order-list .adress {
+	margin-left: 300px;
+}
+
+.order .order-money .lef {
+	width: 500px;
+	float: left;
+}
+
+.order .order-money .rig {
+	width: calc(100% - 500px);
+	float: left;
+}
+
+.order .order-money .lef img {
+	margin-left: 300px;
+	margin-top: 40px;
+}
+
+.order .order-money .rig div:first-child {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 60px;
+}
+
+.order .order-money .rig .minute {
+	margin-top: 20px;
+	font-size: 15px;
+	color: black;
+	position: relative;
+	top: 20px;
+	opacity: 0.7;
+}
+
+.order .order-money .rig .time {
+	margin-top: 20px;
+	font-size: 15px;
+	color: black;
+	position: relative;
+	top: 20px;
+	left: 20px;
+
+}
+
+.order .pay {
+	margin-left: 30px;
+	height: 100px;
+}
+
+.pay .lef1 {
+	margin-top: 20px;
+	float: left;
+	width: 100px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.pay .rig1 {
+	float: left;
+	width: calc(100% - 100px);
+	border-bottom: 1px solid #F5F5F5;
+}
+
+.pay .rig1 .choose {
+	width: 1100px;
+	height: 100%;
+	margin-top: 15px;
+}
+
+.pay-price {
+	height: 70px;
+	margin-top: 30px;
+}
+
+.pay .rig1 .choose li {
+	float: left;
+	font-size: 15px;
+	padding: 0px 10px;
+	margin-right: 45px;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border: 1px solid #F5F5F5;
+	border-radius: 3px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.pay .rig1 .choose .blue {
+	border: 1px solid #009F95;
+}
+
+.pay .rig1 .choose li em {
+	font-size: 13px;
+	font-style: normal;
+	margin-left: 15px;
+	color: orange;
+	border: 1px solid orange;
+}
+
+.pay-price {
+	height: 70px;
+
+}
+
+.pay-price ul {
+	width: 100%;
+	height: 70px;
+}
+
+
+.pay-price ul .black {
+	border: 1px solid #009F95;
+}
+
+.pay-price li {
+	float: left;
+	border: 1px solid #F5F5F5;
+	height: 60px;
+	width: 180px;
+	text-align: center;
+	border-radius: 4px;
+	margin-left: 150px;
+	cursor: pointer;
+}
+
+.pay-price li .fenqi {
+	position: relative;
+	top: 15px;
+	font-size: 13px;
+	color: black;
+	opacity: 0.7;
+}
+
+.pay-price li span {
+	position: relative;
+	top: 15px;
+}
+
+.saoma {
+	height: 100px;
+	text-align: center;
+	margin-top: 20px;
+}

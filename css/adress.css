@@ -1,0 +1,375 @@
+.personal {
+	background-color: #F5F5F5;
+}
+
+.personal .head {
+	height: 250px;
+	margin-top: 15px;
+	background-color: white;
+}
+
+.head .person {
+	height: 20px;
+	width: 100%;
+	font-size: 18px;
+	margin-left: 20px;
+	padding: 20px 16px;
+}
+
+.head .box {
+	height: 150px;
+	width: 250px;
+	border: 1px solid #F5F5F5;
+	margin-left: 20px;
+	cursor: pointer;
+	float: left;
+	margin-top: 8px;
+}
+
+.head .box .add {
+	height: 30px;
+	width: 30px;
+	border-radius: 100%;
+	background-color: #bdbdbd;
+	margin-top: 52px;
+	margin-left: 105px;
+}
+
+.head .box .add>.add_01 {
+	width: 16px;
+	height: 4px;
+	background-color: #fff;
+	position: relative;
+	top: 14px;
+	left: 7px;
+}
+
+.head .box .add>.add_02 {
+	width: 4px;
+	height: 16px;
+	background-color: #fff;
+	position: relative;
+	top: 4px;
+	left: 13px;
+}
+
+.head .box .add_address {
+	margin-left: 82px;
+	margin-top: 5px;
+
+}
+
+.head .box:hover {
+	border: 1px solid #00c3f5;
+}
+
+.head .box:hover .add {
+	background-color: #00c3f5;
+}
+
+.head .new_address {
+	padding: 0 20px 20px 0;
+}
+
+.head .new_address li {
+	float: left;
+	width: 250px;
+	height: 150px;
+	box-sizing: border-box;
+	border: 1px solid #F5F5F5;
+	overflow: hidden;
+	margin-left: 20px;
+	font-size: 13px;
+	margin-top: 10px;
+}
+
+.head .new_address>.item .item_box {
+	margin-left: 20px;
+}
+
+.head .new_address>.item .new_phone {
+	position: relative;
+	float: right;
+	bottom: 15px;
+	right: 20px;
+}
+
+.head .new_address>.item .new-address {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.head .new_address>.item .family {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.head .new_address>.item .pic {
+	position: relative;
+	top: 55px;
+	left: 175px;
+}
+
+.head .new_address .active {
+	border: 1px solid #00c3f5;
+}
+
+.head .new_address>.item .pic>.del {
+	margin-left: 20px;
+}
+
+.head .new_address li:hover {
+	border: 1px solid #00c3f5;
+}
+
+.bill {
+	background-color: #F5F5F5;
+}
+
+.bill .bill_box {
+	margin-top: 15px;
+	height: 230px;
+	background-color: white;
+}
+
+.bill .bill_box>.e-invoice {
+	font-size: 15px;
+	height: 20px;
+	width: 100px;
+	padding: 30px 30px;
+	float: left;
+}
+
+.bill .bill_box>.choose {
+	width: 700px;
+	float: left;
+}
+
+.bill .bill_box>.choose li {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	padding: 30px 70px;
+	font-size: 16px;
+}
+
+.bill .bill_box>.choose .check {
+	height: 20px;
+	width: 20px;
+	border-radius: 100%;
+}
+
+.bill .bill_box>.choose em {
+	font-style: normal;
+	margin-left: 10px;
+	position: relative;
+	bottom: 3px;
+}
+
+.bill .input input {
+	margin-left: 222px;
+	height: 20px;
+	width: 330px;
+	outline: none;
+	border: 1px solid black;
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.bill .pay {
+	height: 40px;
+	margin-top: 20px;
+}
+
+.bill .pay .word {
+	font-size: 16px;
+	margin-left: 30px;
+}
+
+.bill .pay .btn_pay {
+	height: 45px;
+	width: 200px;
+	margin-left: 140px;
+	outline: none;
+	border: 1px solid #81CDB1;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+
+.content {
+	background-color: #F5F5F5;
+}
+
+.content .buy {
+	margin-top: 30px;
+	background-color: white;
+}
+
+.content .buy .tab {
+	text-align: center;
+	font-size: 15px;
+
+}
+
+.content .buy .tab tr {
+	border-top: 1px solid #F5F5F5;
+}
+
+.box .disabled {
+	cursor: default;
+	color: #e0e0e0;
+}
+
+.coupon input {
+	font-size: 16px;
+	padding: 3px 10px;
+	width: 350px;
+	height: 32px;
+}
+
+.price-one button {
+	height: 50px;
+	width: 110px;
+	border-radius: 5px;
+	outline: none;
+	background-color: #F8F8F8;
+	border: 1px solid #F8F8F8;
+
+}
+
+.total {
+	height: 350px;
+	width: 100%;
+}
+
+.total .zuo {
+	float: left;
+	width: 800px;
+	float: left;
+	height: 100%;
+}
+
+.total .you {
+	width: calc(100% - 800px);
+	float: left;
+	height: 100%;
+}
+.total .you span{
+	font-size: 17px;
+	opacity: 0.8;
+	padding: 10px 30px;
+	
+}
+.total .you p:first-child .shuliang{
+	position: relative;
+	left: 166px;
+}
+.total .you p:nth-child(2) .shuliang{
+	position: relative;
+	left: 88px;
+}
+.total .you p:nth-child(4) .shuliang{
+	position: relative;
+	left: 110px;
+}
+.total .you p:nth-child(5) .shuliang{
+	position: relative;
+	left: 122px;
+}
+.total .you p:last-child{
+	border-bottom: 1px solid #F5F5F5;
+}
+.total .you p{
+	margin-top: 20px;
+}
+.total  .total_money{
+	margin-top: 30px;
+	margin-left: 180px;
+}
+ .total  .total_money span{
+	font-size: 20px;
+	
+}
+ .total  .total_money button{
+	 width: 180px;
+	 height: 55px;
+	 line-height: 55px;
+	 color: white;
+	 font-size: 16px;
+	 background-color: #05B570;
+	 border-radius: 5px;
+	 outline: none;
+	 border: 1px solid #05B570;
+	 margin-top: 20px;
+	 position: relative;
+	 right: 16px;
+	 cursor: pointer;
+	 
+ }
+.form {
+	margin-top: 30px;
+	height: 250px;
+	width: 600px;
+	background-color: white;
+
+}
+
+.form input {
+	width: 155px;
+	height: 30px;
+	padding: 4px 10px;
+	border-radius: 5px;
+	outline: none;
+	font-size: 15px;
+	border: 1ox solid #E2E9ED;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.form select {
+	width: 179px;
+	height: 41px;
+	border-radius: 5px;
+	outline: none;
+	font-size: 15px;
+	border: 1ox solid #E2E9ED;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+.form .add-01 {
+	width: 300px;
+}
+
+.form button {
+	height: 40px;
+	width: 150px;
+	outline: none;
+	color: white;
+	border: 1px solid;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 15px;
+	border-radius: 5px;
+	background-color: #808080;
+	cursor: pointer;
+}
+
+.form .cancel {
+	background-color: #D9D9D9;
+
+}
+
+.form .cancel:hover {
+	background-color: #BFBFBF;
+}
+
+#preserve {
+	position: relative;
+	right: 170px;
+	display: none;
+}

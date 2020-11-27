@@ -1,0 +1,252 @@
+.header {
+	width: 100%;
+	height: 80px;
+	background-color: #fff;
+	border-bottom: 1px solid #efefef;
+	position: relative;
+}
+
+
+.header .liucheng a {
+	display: block;
+	width: 150px;
+	height: 80px;
+	line-height: 317px;
+}
+
+.header .lft a>img {
+	width: 125px;
+	margin-top: 28px;
+}
+
+.header .liucheng {
+	line-height: 80px;
+	margin-left: 30px;
+	float: left;
+}
+
+.header .liucheng li {
+	float: left;
+	font-size: 14px;
+}
+
+.header .liucheng li:first-child {
+	color: #333;
+	margin-left: 30px;
+}
+
+.header .liucheng li::after {
+	content: '>';
+	margin: 0 10px;
+	color: #999;
+}
+
+.header .liucheng li:last-child::after {
+	content: ' ';
+	margin: 0 10px;
+	/* color: #999; */
+}
+
+.header .rgt {
+	height: 40px;
+	font-size: 12px;
+	line-height: 40px;
+	margin-top: 20px;
+}
+
+.header .rgt a {
+	color: #666;
+}
+
+.header .rgt li {
+	float: left;
+	padding: 0 20px;
+}
+
+
+.header .rgt li:last-child {
+	/* border: 1px solid #ccc; */
+	width: 159px;
+	padding: 0px;
+}
+
+.header .rgt li:last-child>a {
+	display: block;
+	height: 40px;
+	font-size: 12px;
+	line-height: 40px;
+	padding: 0 20px;
+	background-color: #fff;
+	/* transition: all 1s; */
+	/* transition: border-right-width 2s;
+	transition: border-top-width 2s; */
+	/* position: absolute; */
+	/* z-index: 5; */
+}
+
+.header .rgt li:nth-child(1)>a:hover {
+	color: #008cff;
+	/* transform: ; */
+}
+
+.header .rgt li:nth-child(2)>a:hover {
+	color: #008cff;
+	/* transform: ; */
+}
+
+.header .rgt li:nth-child(3)>a:hover {
+	color: #008cff;
+	/* transform: ; */
+}
+
+.header .rgt li:last-child>.a {
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	color: #008cff;
+	/* transform: ; */
+}
+
+dd:hover {
+	background-color: #ccc;
+}
+
+.header .rgt dl {
+	width: 157px;
+	line-height: 35px;
+	font-size: 12px;
+	background-color: #fff;
+	/* overflow: hidden; */
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	display: none;
+	/* height: 0px; */
+	/* transition: all 0.5s; */
+	/* position: absolute; */
+	/* top: 0px; */
+}
+
+.header .rgt dl dd {
+	width: 159px;
+	height: 35px;
+}
+
+.header .rgt dl dd a {
+	display: block;
+	padding: 0 20px;
+	height: 35px;
+	color: #666;
+}
+
+.header .rgt dl dd:last-child a {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	line-height: 35px;
+}
+
+.content {
+	background-color: #F5F5F5;
+}
+
+.content .buy {
+	margin-top: 60px;
+	height: 700px;
+	background-color: white;
+}
+
+.content .buy .tab {
+	text-align: center;
+	font-size: 15px;
+
+}
+
+.content .buy .tab tr {
+	border-top: 1px solid #F5F5F5;
+}
+
+.number>.box {
+	width: 100%;
+	height: 26px;
+}
+
+.number>.box>.xbox {
+	width: 85px;
+	height: 24px;
+	line-height: 24px;
+	border-radius: 2px !important;
+	margin: auto;
+}
+
+.number>.box>.xbox button {
+	width: 24px;
+	height: 24px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	float: left;
+	outline: none;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.liang {
+	width: 33px;
+	height: 22px;
+	font-size: 12px;
+	text-align: center;
+	float: left;
+	border: 1px solid #ccc;
+	border-left: 0px;
+	border-right: 0px;
+}
+.box .disabled {
+	cursor: default;
+	color: #e0e0e0;
+}
+.content .buy .proceed {
+	height: 20px;
+}
+
+.content .buy .proceed a {
+	position: relative;
+	left: 40px;
+	color: black;
+	float: left;
+	width: 900px;
+}
+
+.content .buy .proceed span:first-child {
+	font-size: 15px;
+}
+
+.content .buy .proceed .money {
+	margin-left: 20px;
+	font-size: 21px;
+}
+
+.content .buy .proceed .money1 {
+	font-size: 33px;
+	font-weight: normal;
+	color: black;
+}
+
+.account .btn {
+	float: right;
+	position: relative;
+	right: 130px;
+	margin-top: 50px;
+	width: 196px;
+	height: 60px;
+	line-height: 60px;
+	color: white;
+	background-color: #6BD089;
+	font-size: 16px;
+	outline: none;
+	border: 1px solid;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.account .btn:hover {
+	background-color: #05B570;
+}

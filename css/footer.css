@@ -1,0 +1,180 @@
+.footer {
+	height: 550px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+.footer .floor1 {
+	margin-top: 80px;
+	height: 200px;
+	width: 100%;
+	background: #FFFFFF;
+}
+
+.floor1 .floor1_box {
+	height: 95px;
+	width: 100%;
+}
+
+.floor1 .floor1_box li {
+	height: 100%;
+	line-height: 25px;
+	float: left;
+	margin-left: 90px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.floor1 .floor1_box p {
+	font-size: 16px;
+	color: black;
+}
+
+.floor1 .line {
+	margin-top: 40px;
+}
+
+.footer .floor2 {
+	height: 300px;
+	margin-bottom: 30px;
+}
+
+.floor2 .left {
+	width: 60%;
+	float: left;
+	height: 20px;
+}
+.floor2 .left div {
+	cursor: pointer;
+	margin-top: 10px;
+	font-size: 13px;
+}
+.floor2 .left div:first-child span{
+	margin-left:50px ;
+}
+.floor2 .left div:nth-child(2) span:first-child{
+	margin-left: 50px;
+}
+.floor2 .left div:nth-child(2) span:nth-child(2){
+	margin-left: 30px;
+}
+.floor2 .left div:nth-child(2) span:nth-child(3){
+	margin-left: 37px;
+}
+.floor2 .left div:nth-child(2) span:nth-child(4){
+	margin-left: 80px;
+}
+.floor2 .left div:nth-child(2) span:last-child{
+	margin-left: 46px;
+}
+.floor2 .left div:nth-child(3) span:first-child{
+	margin-left: 50px;
+}
+.floor2 .left div:nth-child(3) span:nth-child(2){
+	margin-left: 54px;
+}
+.floor2 .left div:nth-child(3) span:nth-child(3){
+	margin-left: 48px;
+}
+.floor2 .left div:nth-child(3) span:nth-child(4){
+	margin-left: 62px;
+}
+.floor2 .left div:nth-child(3) span:last-child{
+	margin-left: 50px;
+}
+.floor2 .left div:nth-child(4) span:first-child{
+	margin-left: 50px;
+}
+.floor2 .left div:nth-child(4) span:nth-child(2){
+	margin-left: 36px;
+}
+.floor2 .left div:nth-child(4) span:nth-child(3){
+	margin-left: 35px;
+}
+.floor2 .left div:nth-child(4) span:nth-child(4){
+	margin-left: 90px;
+}
+.floor2 .left div:nth-child(4) span:last-child{
+	margin-left: 50px;
+}
+.floor2 .left div:nth-child(5) span:first-child{
+	margin-left: 50px;
+}
+.floor2 .left div:nth-child(5) span:nth-child(2){
+	margin-left: 165px;
+}
+.floor2 .left div:nth-child(5) span:nth-child(3){
+	margin-left: 75px;
+}
+.floor2 .left div:nth-child(5) span:last-child{
+	margin-left: 50px;
+}
+.floor2 .left div:nth-child(6) span:first-child{
+	margin-left: 50px;
+}
+.floor2 .left div:nth-child(6) span:nth-child(2){
+	margin-left: 145px;
+}
+.floor2 .left div:nth-child(6) span:last-child{
+	margin-left: 195px;
+}
+.floor2 .left div:nth-child(7) span:first-child{
+	margin-left: 50px;
+}
+.floor2 .left div:nth-child(7) span:nth-child(2){
+	margin-left: 180px;
+}
+.floor2 .left div:nth-child(7) span:last-child{
+	margin-left: 195px;
+}
+.floor2 .left div:last-child span:first-child{
+	margin-left: 50px;
+}
+.floor2 .left div:last-child span:last-child{
+	margin-left: 374px;
+}
+.floor2 .right p:first-child{
+	height: 50px;
+	width: 180px;
+	border-radius: 30px;
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+	line-height: 50px;
+	color: white;
+	float: right;
+	background-color: #4D4D4D;
+}
+.floor2 .right p:nth-child(2){
+	font-size: 18px;
+	text-align: center;
+	margin-top: 70px;
+	margin-left: 1040px;
+}
+.floor2 .right p:last-child{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 990px;
+	color: #999999;
+}
+.floor3 .left{
+	height: 30px;
+	width: 60%;
+	float: left;
+}
+
+.floor3 .left ul{
+	width: 750px;
+	height: 40px;
+}
+.floor3 .left ul li{
+	cursor: pointer;
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	font-size: 13px;
+	opacity: 0.7;
+	margin-left: 10px;
+}
+

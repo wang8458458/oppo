@@ -1,0 +1,133 @@
+@charset "utf-8";
+body{
+	background: url(../img/register/1.png) no-repeat center center;
+}
+.form {
+	width: 350px;
+	margin: 50px auto;
+	padding: 60px;
+	border: 1px solid #ddd;
+	background-color: white;
+}
+.pic img{
+	float: right;
+	position: relative;
+	right: 363px;
+	top: 75px;
+}
+.pic .hide{
+	display: none;
+}
+.form .btn{
+	background-color: #F4FCF8;
+	width: 65px;
+	height: 26px;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #2AD181;
+	border-radius: 3px;
+	position: relative;
+	bottom: 60px;
+	left: 325px;
+	
+}
+.pict{
+	margin-left: 32px;	
+}
+.form .hide1{
+	display: none;
+}
+.form h1 {
+	width: 100px;
+	margin-left: 130px;
+	font-size: 25px;
+	position: relative;
+	bottom: 38px;
+}
+
+.form .menu{
+	width:350px;
+	font-size: 16px;
+}
+
+.form a:first-child{
+	color: black;
+	font-weight: bold;
+	margin-left: 50px;
+}
+.form .sgin{
+	margin-left: 40px;
+}
+.form a:last-child{
+	margin-left: 40px;
+}
+.form a:last-child:hover{
+	color: black;
+	font-weight: bold;
+}
+.form .form-control {
+	position: relative;
+	margin: 24px 24px;
+}
+
+.form .input-control {
+	display: inline-block;
+	width: 270px;
+	height: 19px;
+	background-color: #F7F7F7;
+	border-radius: 5px;
+	border: 1px solid #DDDDDD;
+	font-size: 16px;
+	padding: 11px 10px;
+}
+
+.form .word {
+	opacity: 0.5;
+	margin-left: 50px;
+}
+
+.form .checked {
+	width: 400px;
+	height: 40px;
+	margin-top: 20px;
+}
+
+#checked {
+	height: 15px;
+	width: 15px;
+}
+
+.word_01 {
+	margin-left: 22px;
+	color: black;
+}
+.form .checked .word_02 .little_word {
+	margin-left: 194px;
+	color: #2AD181;
+}
+
+#login{
+	width: 294px;
+	height: 45px;
+	font-size: 18px;
+	background-color: #2AD181;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #2AD181;
+	color: white;
+	border-radius: 6px;
+	margin-left: 22px;
+}
+#login:hover{
+	background-color: #0ab463;
+}
+.form .code{
+	display: none;
+}
+.form .form-control .number{
+	cursor: pointer;
+	height: 15px;
+	width: 100px;
+	position: relative;
+	top: 10px;
+}

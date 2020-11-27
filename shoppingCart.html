@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>购物车</title>
+
+		<link rel="stylesheet" type="text/css" href="css/shoppingCart.css" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<script src="js/jquery-3.5.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/layer/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/shoppingCart.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="header-all"></div>
+		<div class="header">
+			<div class="container clearfix">
+				<div class="lft fl">
+					<a href="index.html">
+						<!-- <img src="img/ShoppingCart/image_01.png"> -->
+					</a>
+				</div>
+
+				<ul class="clearfix liucheng">
+					<li>购物车</li>
+					<li>确认订单</li>
+					<li>在线支付</li>
+					<li>完成</li>
+				</ul>
+
+				<ul class="fr rgt clearfix" id="denglu">
+					<li>
+						<a href="personal.html">我的订单</a>
+					</li>
+					<!-- <li class="denglu">
+						<a href="login.html">登录</a>
+					</li>
+					<li class="zhuce">
+						<a href="register.html">注册</a>
+					</li> -->
+					<li class="dingdan">
+						<a href="javascript:void(0)">
+
+							<span class="yonghu">用户admin</span>的商城<span id="span">∨</span>
+						</a>
+						<dl>
+							<dd>
+								<a href="address1.html">地址管理</a>
+							</dd>
+							<dd>
+								<a href="javascript:void(0)">我的收藏</a>
+							</dd>
+							<dd>
+								<a href="javascript:void(0)">我的回购金</a>
+							</dd>
+							<dd>
+								<a href="javascript:void(0)">问题反馈</a>
+							</dd>
+							<dd>
+								<a href="javascript:void(0)" class="tui">退出</a>
+							</dd>
+						</dl>
+
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<div class="container">
+				<div class="buy">
+					<table class="tab" cellpadding="50">
+						<tbody>
+							<tr>
+								<td><input type="checkbox" id="chkAll" /></td>
+								<td>商品</td>
+								<td>配置型号</td>
+								<td>价格</td>
+								<td>数量</td>
+								<td>操作</td>
+							</tr>
+							<!-- <tr class="tr">
+								<td class="checked-one"><input type="checkbox" name="price" class="input" /></td>
+								<td><img src="img/ShoppingCart/b.png" width="90px" height="90px"></td>
+								<td><span>Reno4 5G</span><span>晶钻红</span><span>8G+128G</span></td>
+								<td class="price-one">20</td>
+								<td class="number">
+									<div class="box">
+										<div class="xbox clearfix">
+											<button type="button" class="jian">-</button>
+											<div class="liang">1</div>
+											<button type="button" class="jia">+</button>
+										</div>
+									</div>
+								</td>
+								<td><img src="./img/personal/b.png" class="del"></td>
+							</tr> -->
+						</tbody>
+					</table>
+					<div class="proceed">
+						<a href="index.html">
+							<h3>继续选购</h3>
+						</a>
+						<label>
+							<span>应付:</span>
+						</label>
+						<strong>
+							<span class="price1">0.00</span>
+						</strong>
+					</div>
+					<div class="account">
+						<div class="left"></div>
+						<div class="right">
+							<a href="address.html"><button type="button" class="btn">去结算</button></a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		<div class="footer-all"></div>
+		<script type="text/javascript">
+			function getCookie(cname) {
+				var name = cname + "=";
+				var ca = document.cookie.split(';');
+				for (var i = 0; i < ca.length; i++) {
+					var c = ca[i].trim();
+					var arrC = c.split("=");
+					if (arrC[0] == cname) {
+						return arrC[1];
+					}
+				}
+				return "";
+			}
+		</script>
+	</body>
+</html>
